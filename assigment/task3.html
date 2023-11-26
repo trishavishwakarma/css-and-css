@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        img{
+            clip-path: polygon(30% 0%, 70% 0%, 100% 0, 100% 70%, 50% 88%, 50% 88%, 0% 70%, 0 0);
+        }
+        .first{
+        position: absolute;
+        }
+        .navbar{
+            position: absolute;
+            top: 27px;
+            left: 500px;
+        }
+        .navbar a{
+            font-size: 22px;
+            color: black;
+            text-decoration: none;
+            margin-right: 60px;
+        }
+        .first11{
+            position: absolute;
+            top: 150px;
+            left: 650px;
+            font-size: 20px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .first12{
+            position: absolute;
+            top: 180px;
+            left: 540px;
+            font-size: 50px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            letter-spacing: 6px;
+        }
+        .first13{
+            position: absolute;
+            display: flex;
+            flex-wrap: wrap;
+            top: 247px;
+            left: 700px;
+        }
+        .first131{
+            height: 2px;
+            width: 70px;
+            background-color: black;
+        }
+        .first132{
+            height: 6px;
+            width: 6px;
+            border-radius: 50%;
+            background-color: black;
+            margin-left: 10px;
+        }
+        .first133{
+            height: 2px;
+            width: 70px;
+            background-color: black;
+            margin-left: 10px;
+        }
+        .first14{
+            position: absolute;
+            top: 280px;
+            left: 600px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .first141{
+            position: absolute;
+            top: 15px;
+            left: 18px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .frist142{
+            position: absolute;
+            top:30px;
+            left: 35px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .first15{
+            position: absolute;
+            height: 30px;
+            width: 140px;
+            background-color: coral;
+            top: 350px;
+            left: 630px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .first151{
+            height: 30px;
+            width: 140px;
+            border: 14px white;
+            background-color: black;
+            position: absolute;
+            left: 158px;
+            opacity: 0.5;
+            color: white;
+        }
+        .first16{
+            position: absolute;
+            top: 358px;
+            left: 640px;
+            font-size: 13px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .first17{
+            position: absolute;
+            top: 358px;
+            left: 810px;
+            font-size: 13px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: aliceblue;
+        }
+        .first18{
+            height: 30px;
+            width: 30px;
+            background-color: gray;
+            position: absolute;
+            top: 200px;
+            left: 1460px;
+        }
+    .first19{
+        height: 30px;
+            width: 30px;
+            background-color: coral;
+            position: absolute;
+            top: 200px;
+            left: 1460px;
+    }
+        .first1 img{
+            position: absolute;
+            top: 580px;
+            left: 730px;
+            border-radius: 50%;
+            border: 4px wheat;
+            
+        }
+        .first2 img{
+            position: absolute;
+            top: 10px;
+            left: 190px;
+        }
+        .second{
+             position: absolute;
+        }
+        .second1 img{
+              position: absolute;
+              bottom: 85px;
+              left: 400px;
+              clip-path: polygon(50% 0%, 200% 100%, 200% 100%, 0% 50%);
+              border: 2px coral;
+              background-color: black;
+        }
+        .second2{
+            position: absolute;
+            bottom: 85px;
+            left: 665px;
+        }
+        .second3 img{
+            position: absolute;
+            bottom:85px;
+            left: 875px;
+        }
+        .second4 img{
+            position: absolute;
+            bottom: 85px;
+            left: 1085px;
+        }
+        .second5{
+            position: absolute;
+            height: 40px;
+            width: 50px;
+            background-color: coral;
+            bottom: 90px;
+            left: 659px;
+            opacity: 0.5;
+        }
+        .second7{
+            position: absolute;
+            height: 50px;
+            width: 50px;
+            background-color: coral;
+            bottom: 90px;
+            left: 875px;
+            opacity: 0.5;
+        }
+        .second8{
+            position: absolute;
+            height: 50px;
+            width: 50px;
+            background-color: coral;
+            bottom: 90px;
+            left: 1081px;
+            opacity: 0.5;
+        }
+        .third{
+            position: absolute;
+            color: coral;
+            bottom: 70px;
+            left: 380px;
+        }
+        .third1{
+            position: absolute;
+            color:coral;
+            bottom: 70px;
+            left: 630px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .third2{
+            position: absolute;
+            color:coral;
+            bottom: 70px;
+            left: 830px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .third3{
+            position: absolute;
+            color:coral;
+            bottom: 70px;
+            left: 1050px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .third4{
+            position: absolute;
+            height: 2px;
+            width: 40px;
+            background-color: gray;
+            bottom: 65px;
+            left: 410px;
+        }
+        .third5{
+            position: absolute;
+            height: 2px;
+            width: 40px;
+            background-color: gray;
+            bottom: 65px;
+            left: 660;
+        }
+        .third6{
+              position: absolute;
+              height: 2px;
+              width: 40px;
+              background-color: gray;
+              bottom: 65px;
+              left: 870px;
+        }
+        .third7{
+            position: absolute;
+              height: 2px;
+              width: 40px;
+              background-color: gray;
+              bottom: 65px;
+              left: 1085px;
+
+        }
+    </style>
+</head>
+<body>
+   <div class="first">
+    <img src="shutterstock_1033306540s.avif" alt="" width="1515" height="700px">
+    <nav class="navbar">
+        <a href="">Home</a>
+        <a href="">About</a>
+        <a href="">Portfolio</a>
+        <a href="">Pricing</a>
+        <a href="">Team</a>
+        <a href="">Blog</a>
+        <a href="">Contact</a>
+    </nav>
+    <div class="first11">Our Clients Are Our First Priority</div>
+    <div class="first12">WELCOME TO SKY</div>
+    <div class="first13">
+        <div class="first131"></div>
+        <div class="first132"></div>
+        <div class="first133"></div>
+    </div>
+    <div class="first14">lorem ipsum sit,amet consectetur adipisicing elit.  <br> <br>  
+    <div class="first141">commodi nulla vel consectetur illum oditv</div>
+    <div class="first142">inventore illo unde quam neque consect</div>
+    </div>
+    <div class="first15">
+        <div class="first151"><center>LEARN NOW</center></div>
+    </div>
+    <div class="first16">GET STARTED NOW</div>
+    <div class="frist17"></div>
+    <div class="first18"></div>
+    <div class="first19"></div>
+    <div class="first1"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNoZtP-MUNi7QTUlPxTZjc1ZcNq8_FFWBP0wp5O3ypjNvvkKWrMHOUyy7IlFFk8CZG-m0&usqp=CAU" alt="" height="50px" width="50px"></div>
+    <div class="first2"><img src="lolgo.png" alt="" height="30px" width="60px"></div>
+   </div> 
+   <div class="secound">
+    <div class="secound1">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcqDz8urIa7XZR06KAYpb8ULU7bSCQw258aQ&usqp=CAU" alt="" height="40px" width="40px"></div>
+    <div class="second3"><img src="bulb.png" alt="" height="50px" width="50px"></div>
+    <div class="second4"><img src="msg.png" alt="" height="50px" width="40px"></div>
+    <div class="second5"></div>
+    <div class="second7"></div>
+    <div class="second8"></div>
+    <div class="third">SLEEK DESIGN</div>
+    <div class="third1">CLEAN CODE</div>
+    <div class="third2">CREATIVE IDEAS</div>
+    <div class="third3">FREE SUPPORT</div>
+    <div class="third4"></div>
+    <div class="third6"></div>
+    <div class="third7"></div>
+   </div>
+</body>
+</html>
